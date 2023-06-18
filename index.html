@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Crete+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-color" id="getTop">
+    <div class="px-4 pt-5 text-center">
+      <h1 class="display-4 fw-bold text-color">I'm Lorenzo.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 text-color">A young developer based in Trieste.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="./Images/avataaars.png" alt="my avatar" class="avatar-pic img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="px-4 pt-5 text-center profile-section">
+      <h1 class="display-4 fw-bold text-body-emphasis">Hi.</h1>
+      <div class="col-lg-6 mx-auto">
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <img src="./Images/IMG_5947_edit.jpg" alt="image of myself" class="profile-pic img-fluid mx-auto"
+            loading="lazy">
+        </div>
+        <p class="lead mb-4">
+          I'm a Web Developer. I love coffee, hiking and photography. My interests are wide, they go from D&D and
+          roleplaying in general to finance/cooking stuff.
+          I consider myself a 360° nerd.<br>
+          I graduated in Computer Engineering (bachelor) at the Università degli studi di Trieste
+          and i currently work as a developer.
+          I plan to finish my studies in Computer Engineering, curriculum Big Data.
+        </p>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-1 py-4">
+          <ul class="d-sm-flex m-flex list-unstyled mt-auto">
+            <li class="align-items-center">
+              <button type="button" class="btn btn-lg info-button"
+                onclick="document.getElementById('my-hobbies').scrollIntoView()">My Hobbies ></button>
+            </li>
+            <li class="align-items-center mx-auto">
+              <button type="button" class="btn btn-lg info-button"
+                onclick="document.getElementById('my-hobbies').scrollIntoView()">My Resumé ></button>
+            </li>
+            <li class="align-items-right">
+              <button type="button" class="btn btn-lg info-button"
+                onclick="document.getElementById('contact-me').scrollIntoView()">Contact Me ></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid px-4 py-5 hobbies-section" id="my-hobbies">
+      <h2 class="pb-2 border-bottom">Hobbies and interests</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white" id="hiking-photography-bg">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hiking and photography</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Trieste, Italy</small>
+                </li>
+                <li class="d-flex align-items-center">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4"
+            style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white" id="traveling-photography-bg">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Traveling</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Snežnik, Slovenia</small>
+                </li>
+                <li class="d-flex align-items-center">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4"
+            style="background-image: url('unsplash-photo-3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3" id="food-photography-bg">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold hobbies-text">Cooking</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Trieste, Italy</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4"
+          style="background-image: url('unsplash-photo-2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white" id="economy-photography-bg">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold hobbies-text">Finance</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <p></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overflow-hidden px-4 pt-5 contacts-section" style="max-height: 30vh;">
+    <h2 class="pb-2 border-bottom" id="contact-me">Contact me</h2>
+    <div class="px-1 pt-4">
+      <ul class="d-flex list-unstyled mt-auto justify-content-evenly">
+        <li class="text-center">
+          <a href="https://www.google.com/search?q=trieste+italy" target="_blank">
+            <img src="Images/house-door.svg" alt="home open-door small logo" class="footer-logo">
+            <p>Trieste, Italy</p>
+          </a>
+        </li>
+        <li class="text-center">
+          <a href="https://www.linkedin.com/in/lorenzo-airey/" target="_blank">
+            <img src="Images/linkedin.svg" alt="linkedin small logo" class="footer-logo">
+            <p>Airey Lorenzo</p>
+          </a>
+        </li>
+        <li class="text-center">
+          <a href="mailto:airey.lorenzo@gmail.com?subject=Hi&body=Dear Lorenzo">
+            <img src="Images/envelope-paper.svg" alt="envelope-paper small logo" class="footer-logo">
+            <p>Email me</p>
+          </a>
+        </li>
+        <li class="text-center">
+          <a href="https://www.instagram.com/beerengram/" target="_blank">
+            <img src="Images/instagram.svg" alt="instagram small logo" class="footer-logo">
+            <p>Beerengram</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3 background-color">
+    <div class="container">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#getTop" class="nav-link px-2 text-body-secondary">Go top</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Airey Lorenzo</p>
+  </footer>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="arrowUp" viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </symbol>
+  </svg>
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3">
+    <button class="btn py-2 d-flex align-items-center goTopButtonIndex" id="bd-theme" type="button"
+      aria-expanded="false" data-bs-toggle="goTop" aria-label="go to the top of the page"
+      onclick="document.getElementById('getTop').scrollIntoView()">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+        <use href="#arrowUp"></use>
+      </svg>
+    </button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

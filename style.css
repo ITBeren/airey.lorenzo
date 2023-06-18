@@ -1,0 +1,116 @@
+html {
+    height: 100vh;
+}
+
+.background-color {
+    background-color: #9A9B94;
+}
+
+.profile-section {
+    background-color: #E9E9E5;
+}
+
+.hobbies-section, .contacts-section {
+    background-color: #E9E9E5;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.modal-background {
+    background-color: #E9E9E5;
+}
+
+.background-color div h1, .background-color .hobbies-section h2, .contacts-section h2 {
+    font-family: 'Crete Round', Georgia, serif;
+}
+
+.text-color {
+    color: #EDEDED;
+}
+
+.avatar-pic {
+    height: 30vh;
+    width: 30vh;
+    object-fit: fill;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    transition: transform .2s; /* Animation */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile-pic:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.info-button {
+    background-color: #52524E;
+    border-color: #52524E;
+    color: #E9E9E5;
+}
+
+.info-button:hover {
+    background-color: #9A9B94;
+    border-color: #9A9B94;
+}
+
+.info-button:active {
+    background-color: black;
+    border-color: #9A9B94;
+}
+
+#hiking-photography-bg {
+    background-size: cover;
+    background-position: 56%;
+    background-image: url("./Images/IMG_9548_edit2.jpg");
+}
+
+#traveling-photography-bg {
+    background-size: cover;
+    background-position: 56%;
+    background-image: url("./Images/IMG_0059.png");
+}
+
+#food-photography-bg {
+    background-size: cover;
+    background-position: 56%;
+    background-image: url("./Images/cook_img.png");
+}
+
+#economy-photography-bg {
+    background-size: cover;
+    background-position: 56%;
+    background-image: url("./Images/Economy\ graph\ \(1\).jpg");
+}
+
+.contacts-section div ul li {
+    flex: 1 1 1 auto;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: black;
+}
+
+a:hover {
+    color: #9A9B94;
+}
+
+.goTopButtonIndex {
+    z-index: 99;
+}
+
+.footer-logo {
+    width: 1.5em;
+    height: 1.5em;
+}
